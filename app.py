@@ -3,7 +3,6 @@ import re
 import json
 import nltk
 from flask_cors import CORS
-from nltk.corpus import stopwords
 from werkzeug.utils import secure_filename
 from flask import Flask, jsonify, request, url_for
 
